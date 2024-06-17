@@ -45,6 +45,12 @@ console.log(x)
 myName = "Palmiero";
 console.log(myName);
 
+const myName2 = "Palmiero";
+console.log(myName2);
+
+myName2 = "palmiero"; // Infatti mi da errore e mi dice che è stata già assegnata a un costrutto const.
+console.log(myName2);
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
