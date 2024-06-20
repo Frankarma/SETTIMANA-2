@@ -70,7 +70,7 @@ let name1 = "john";
 
 let name2 = "John";
 
-let verifica = name1 != name2;
+let verifica = name1 !== name2;
 console.log(verifica);
 
 
