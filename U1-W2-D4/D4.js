@@ -20,7 +20,6 @@ console.log("L'area del rettangolo è:", area(lunghezza, larghezza));
  la loro somma moltiplicata per tre.
 */
 
-
 function crazySum(num1, num2) {
     let sum = num1 + num2;
     if (num1 === num2) {
@@ -46,8 +45,8 @@ function crazyDiff(num) {
     }
 }
 
-console.log(crazyDiff(22)); // Output: 9 (perché 22 è maggiore di 19, quindi (22-19) * 3)
-console.log(crazyDiff(10)); // Output: 9 (perché 10 è minore di 19, quindi 19-10)
+console.log(crazyDiff(22));  
+console.log(crazyDiff(10));
 
 
 
@@ -106,32 +105,27 @@ function check3and7(num) {
     }
 }
 
-console.log(check3and7(21)); // Output: true (perché 21 è un multiplo di 3 e di 7)
-console.log(check3and7(9));  // Output: true (perché 9 è un multiplo di 3)
-console.log(check3and7(14)); // Output: true (perché 14 è un multiplo di 7)
-console.log(check3and7(10)); // Output: false (perché 10 non è un multiplo di 3 né di 7)
 
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
+
+console.log("#### ");
+
 function reverseString(str) {
-    // Converte la stringa in un array di caratteri
     let arrayOfChars = str.split('');
     
-    // Inverte l'ordine degli elementi dell'array
     let reversedArray = arrayOfChars.reverse();
     
-    // Converte l'array invertito di nuovo in una stringa
     let reversedString = reversedArray.join('');
     
-    // Restituisce la stringa invertita
     return reversedString;
 }
 
-console.log(reverseString("EPICODE")); // Output: "EDOCIPE"
-console.log(reverseString("JavaScript")); // Output: "tpircSavaJ"
+console.log(reverseString("EPICODE"));
+
 
 
 
